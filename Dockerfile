@@ -1,13 +1,13 @@
-FROM swarm:latest
+FROM adouang/docker-swarm:latest
 
 ENV SERF_VERSION 0.6.4_linux_amd64
 
-RUN wget https://dl.bintray.com/mitchellh/serf/$SERF_VERSION.zip
+RUN apt-get update
 
-RUN sudo apt-get install unzip
+RUN curl -L https://dl.bintray.com/mitchellh/serf/$SERF_VERSION.zip -o serf.zip
 
-RUN unzip $SERF_VERSION.zip
+RUN unzip serf.zip
 
-RUN sudo mv serf /usr/local/bin
+RUN mv serf /usr/local/bin
 
-RUN rm $SERF_VERSION.zip
+RUN rm serf.zip
