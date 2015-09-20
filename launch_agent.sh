@@ -1,3 +1,3 @@
 #!/bin/sh
 
-serf agent
+serf agent &

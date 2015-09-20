@@ -1,3 +1,3 @@
 #!/bin/sh
 
-serf join $1
+serf join $1 &
