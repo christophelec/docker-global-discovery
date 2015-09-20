@@ -1,10 +1,10 @@
 FROM adouang/docker-swarm:latest
 
-ADD ./swarm /workspace
+ADD ./swarm /workspace/
 
-ADD ./*.sh /workspace
+ADD ./*.sh /workspace/
 
-WORKDIR /workspace
+WORKDIR /workspace/
 
 ENV SERF_VERSION 0.6.4_linux_amd64
 
