@@ -1,3 +1,3 @@
 #!/bin/sh
 
-serf agent &
+serf agent -encrypt=vssbxwv7yN1frYmbrcOR/w== &
