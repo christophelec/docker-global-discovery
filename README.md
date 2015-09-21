@@ -1,5 +1,7 @@
 # Global Discovery Token
 
+# [Check it on the Global Hack repo HERE](https://github.com/adouang/global-hack-day-3/tree/master/global-discovery-token)
+
 This little hack has been realised during the Global Hack Day, by Alain Douangpraseuth and Christophe Lecointe
 
 Our goal was to provide a new discovery backend for Docker Swarm, allowing a node to join a swarm as easily as with tokens, in a very decentralized way (unlike tokens, which depends on DockerHub / Internet connection).
